@@ -961,6 +961,10 @@ footer .copyright {
     #form-details{
         padding: 40px;
     }
+
+    #form-details form{
+        width: 50%;
+    }
 }
 
 /* điện thoại */
@@ -1089,4 +1093,23 @@ footer .copyright {
         margin: 30px auto 0 auto;
     }
 
+    /* liên hệ */
+
+    #contact-details{
+        flex-direction: column;
+    }
+
+    #contact-details .cdetails{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #contact-details .map{
+        width: 100%;
+    }
+
+    #form-details{
+        width: 100%;
+        margin-top: 30px;
+    }
 }
