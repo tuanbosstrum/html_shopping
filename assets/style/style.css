@@ -903,7 +903,69 @@ footer .copyright {
 
 #cart table tbody tr td{
     padding-top: 15px;
+
 } 
+
+#cart table tbody td{
+    font-size: 13px;
+}
+
+/* thêm vào giỏ hàng */
+
+#cart{
+    overflow-x: auto;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border-top: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
 
 /* reponsive - chức năng thích ứng mọi thiết bị kết nối */
 /* tablet */
@@ -1167,5 +1229,20 @@ footer .copyright {
     #form-details{
         width: 100%;
         margin-top: 30px;
+    }
+
+    /* giỏ hàng */
+
+    #cart-add{
+        flex-direction: column;
+    }
+
+    #coupon{
+        width: 100%;
+    }
+
+    #subtotal{
+        width: 100%;
+        padding: 20px;
     }
 }
